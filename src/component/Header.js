@@ -44,15 +44,15 @@ function Header() {
         <Toolbar>
           
           <Typography variant="h6" className={classes.title}>
-          <Link to='/' style={{color: 'white', textDecoration:"none"}}>Geek Assisment</Link>
+          <Link to='/' style={{color: 'white', textDecoration:"none"}}> Assisment</Link>
           </Typography>
           <Popper open={open} anchorEl={anchorEl} placement={placement} transition>
         {({ TransitionProps }) => (
           <Fade {...TransitionProps} timeout={350}>
             <Paper>
-              <Typography className={classes.typography}> Company: Geeksynergy Technologies Pvt Ltd <br></br>
-                Address: Sanjayanagar, Bengaluru-56<br></br>
-                Phone:XXXXXXXXX09<br></br>
+              <Typography className={classes.typography}> Company: INCRED <br></br>
+                Address: Bengaluru<br></br>
+                Phone: XXXXXXXXX09<br></br>
                 Email: XXXXXX@gmail.com .</Typography>
             </Paper>
           </Fade>

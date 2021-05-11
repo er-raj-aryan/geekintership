@@ -95,6 +95,8 @@ function Signup() {
            <Button onClick={register} style={{margin:10}} type="submit" variant="contained" color="primary">SignUp</Button>
         </form>
 
+        
+
     <p style={{textAlign:'center'}}>* If you already have account please login</p>
         
         <Link style={{textDecoration: "none",textAlign:'center'}} to='/'>
